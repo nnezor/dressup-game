@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dress up game</title>
+
+    <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
+
+    <link href="https://fonts.cdnfonts.com/css/merchant-copy-doublesize" rel="stylesheet">
+                            
+                
+    <link rel="stylesheet" href="website.css">           
+  </head>
+
+
+  <body onload="Randomize()">
+    <h1>	&#9734; Dress Up Game &#9734;</h1>
+    <h2>&#666; By Rozenn &#606;</h2>
+    <div class="top-text">
+      <p>Click on the arrows to change the character's outfit !</p>
+      <p>You can change the hairstlyle, clothes and accessories.</p>
+    </div>
+
+    <p class="line">&#9472;&#9472;&#9472; &#8902;&sdot;&#9734;&sdot;&#8902; &#9472;&#9472;&#9472;</p>
+
+    
+    <div class="randomize-button" >
+      <button onclick="Randomize()">randomize</button>
+    </div>
+    
+    <div id="container">
+
+      <div class="left-side">
+
+        <div class="prev-buttons" onclick="ChangeHair(-1)">
+          <img src="graphics/arrow-left-light.png">
+        </div>
+
+        <div class="next-buttons" id="next-glasses" onclick="ChangeGlasses(+1)">
+          <img src="graphics/arrow-left-light.png">
+        </div>
+
+        <div  class="prev-buttons" onclick="ChangeAccessories(-1)">
+          <img src="graphics/arrow-left-light.png">
+        </div>
+
+        <div class="prev-buttons" onclick="ChangeTop(-1)">
+          <img src="graphics/arrow-left-light.png">
+        </div>
+
+        <div class="prev-buttons" onclick="ChangeBottoms(-1)">
+          <img src="graphics/arrow-left-light.png">
+        </div>
+
+        <div class="prev-buttons" onclick="ChangeShoes(-1)">
+          <img src="graphics/arrow-left-light.png">
+        </div>
+
+      </div>
+
+      <div class="character">
+
+        <img id="body" src="graphics/body.png">
+        <img id="shoes" src="graphics/vide.png">
+        <img id="bottoms" src="graphics/vide.png">
+        <img id="top" src="graphics/vide.png">
+        <img id="hair" src="graphics/vide.png">
+        <img id="accessories" src="graphics/vide.png">
+        <img id="glasses" src="graphics/vide.png">
+  
+      </div>    
+
+      <div class="right-side">
+
+        <div class="next-buttons" id="next-hair" onclick="ChangeHair(+1)">
+          <img src="graphics/arrow-right-light.png">
+        </div>
+
+        <div class="next-buttons" id="next-glasses" onclick="ChangeGlasses(+1)">
+          <img src="graphics/arrow-right-light.png">
+        </div>
+
+        <div class="next-buttons" id="next-accessories" onclick="ChangeAccessories(+1)">
+          <img src="graphics/arrow-right-light.png">
+        </div>
+
+        <div class="next-buttons" id="next-haut" onclick="ChangeTop(+1)">
+          <img src="graphics/arrow-right-light.png">
+        </div>
+
+        <div class="next-buttons" id="next-bas" onclick="ChangeBottoms(+1)">
+          <img src="graphics/arrow-right-light.png">
+        </div>
+
+        <div class="next-buttons" id="next-shoes" onclick="ChangeShoes(+1)">
+          <img src="graphics/arrow-right-light.png">
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <p class="line">&#9472;&#9472;&#9472; &#8902;&sdot;&#9734;&sdot;&#8902; &#9472;&#9472;&#9472;</p>
+
+    <div class="bottom-text">
+      <p>Thanks for visiting my game, I hope you enjoy it &#9825;</p>
+      <h3>More info:</h3>
+      <p>This is my first coding project and I hope to do some more in the future! I did the drawings on Procreate. The font I used is called Merchant Copy Doublesize.</p>
+      <h3>Contact:</h3>
+      <p>my instagram: 
+        <a href="https://www.instagram.com/rozenn.zzz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@rozenn.zzz</a>
+    </div>
+   
+    <p class="line">&#9472;&#9472;&#9472; &#8902;&sdot;&#9734;&sdot;&#8902; &#9472;&#9472;&#9472;</p>
+
+    </p>
+    <script src="website.js"></script>
+  </body>
+</html>

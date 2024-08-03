@@ -1,0 +1,133 @@
+body {
+  font-family: 'Merchant Copy Doublesize', sans-serif;       
+  background-color: rgb(237, 240, 247);                                
+}
+
+p {
+  font-size: small;
+}
+
+.top-text {
+  text-align: center;
+}
+
+.bottom-text {
+  margin-left: 14%;
+  margin-right: 10%;
+}
+
+@media (max-width: 750px) {
+  .bottom-text {
+    margin-left: auto;
+  }
+}
+
+h1{
+  text-align: center;
+}
+
+h2 {
+  background-color: rgb(255, 223, 228);
+  opacity: 70%;
+  font-size: medium;
+  text-align: center;   
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+  padding: 3px;
+}
+
+h3 {  
+  margin-top: 36px; 
+  font-size: medium;
+}
+
+.line {
+  font-size:x-large;
+  text-align: center;     
+}
+
+
+/*game interface*/
+
+#container {
+  display: flex;
+  margin:auto;
+  max-width: 500px;
+  height:auto;
+  justify-content: center;
+  align-items: stretch;
+  position: relative;
+  padding: 10px;
+  background-color: rgb(247, 206, 212);
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgb(107, 78, 82) ;
+}
+
+.character {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+
+.character img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;  
+}
+
+.left-side 
+.right-side {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.next-buttons, 
+.prev-buttons {
+  height: 68px;
+  display: block;
+  cursor: pointer; 
+  padding: 2px;
+  align-content: center;
+}
+
+.next-buttons img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.prev-buttons img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.next-buttons:hover,
+.prev-buttons:hover
+.randomize-button:hover {
+  opacity: 75%;
+}
+
+.randomize-button {
+  text-align: center;
+  margin-bottom: -2px;
+}
+.randomize-button button {
+  margin-right: 350px;
+  padding: 3px;
+  background-color: lightgray;
+  border: solid gray;
+  border-radius: 3px;
+  font-family: 'Merchant Copy Doublesize', sans-serif;   
+}
