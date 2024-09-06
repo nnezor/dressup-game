@@ -167,7 +167,7 @@ h3 {
 }
 
 .next-buttons:hover,
-.prev-buttons:hover
+.prev-buttons:hover,
 .randomize-button:hover {
   opacity: 75%;
 }
