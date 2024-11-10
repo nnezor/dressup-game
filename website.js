@@ -1,8 +1,8 @@
 const hairConst = ["hair-1.png", "hair-2.png"];
-const topConst = ["haut-1.png", "haut-2.png", "haut-3.png", "haut-4.png"];
-const bottomsConst = ["bas-1.png", "bas-2.png", "bas-3.png"];
-const shoesConst = ["shoes-1.png", "shoes-2.png", "shoes-3.png"];
-const accessoriesConst = ["vide.png", "accessoires-1.png","accessoires-2.png"];
+const topConst = ["haut-1.png", "haut-2.png", "haut-3.png", "haut-4.png", "haut-5.png"];
+const bottomsConst = ["bas-1.png", "bas-2.png", "bas-3.png", "bas-4.png"];
+const shoesConst = ["shoes-1.png", "shoes-2.png", "shoes-3.png", "shoes-4.png"];
+const accessoriesConst = ["vide.png", "accessoires-1.png","accessoires-2.png", "accessoires-3.png"];
 const glassesConst = ["vide.png", "lunettes-1.png", "lunettes-2.png"];
 
 let hairIndex = 0;
